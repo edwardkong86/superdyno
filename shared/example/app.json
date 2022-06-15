@@ -1,0 +1,22 @@
+{
+  "name": "superdyno-shared-example",
+  "displayName": "SuperdynoShared Example",
+  "expo": {
+    "name": "superdyno-shared-example",
+    "slug": "superdyno-shared-example",
+    "description": "Example app for superdyno-shared",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
