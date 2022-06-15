@@ -1,0 +1,6 @@
+module Pods_expense_expenseTests {
+  umbrella header "Pods-expense-expenseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

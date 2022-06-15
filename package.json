@@ -1,0 +1,25 @@
+{
+  "name": "superdyno",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "clear": "yarn --cwd host clear",
+    "android": "yarn --cwd host android",
+    "ios": "yarn --cwd host ios",
+    "start": "yarn --cwd host start",
+    "bundle": "react-native webpack-bundle --platform ios --entry-file index.js --bundle-output ./dist/index.bundle --dev=false",
+    "webpack": "PLATFORM=ios webpack -c webpack.config.js",
+    "host": "yarn --cwd host",
+    "hostPods": "cd host && npm pod install --quiet",
+    "bootstrap": "yarn --cwd banking && yarn --cwd host",
+
+    "home": "yarn --cwd home",
+    "banking": "yarn --cwd banking",
+    "wallet": "yarn --cwd wallet",
+    "expense": "yarn --cwd expense",
+    "profile": "yarn --cwd profile",
+
+    "test": "jest",
+    "lint": "eslint ."
+  }
+}
